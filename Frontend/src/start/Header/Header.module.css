@@ -1,0 +1,28 @@
+.header{
+    max-width: 100vw;
+    height: 5.625rem;
+    padding: 0 10px 0 10px;
+    background-color: #08070C;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+color: #FFF;
+font-family: Poppins;
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.shopIcon{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
