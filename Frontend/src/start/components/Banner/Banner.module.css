@@ -1,13 +1,14 @@
-.mainContainer{
+.mainContainer {
     max-width: 100vw;
 }
-.images{
+
+.images {
+    background-image: url(../../../assets/images/Banner-1.jpg);
+    background-color: lightgray;
+    background-position: -0.866px -9.688px;
+    background-size: 100.136% 137.5%;
     background-repeat: no-repeat;
-    /* max-width: 100vw; */
-    /* max-height: 100vh; */
-    /* background-position: center; */
-    /* background-size: cover; */
     width: 79.9375rem;
-height: 38.75rem;
-flex-shrink: 0;
+    height: 38.75rem;
+    flex-shrink: 0;
 }
