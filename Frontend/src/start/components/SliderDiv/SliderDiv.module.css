@@ -1,0 +1,7 @@
+.slideImage{
+    background-image: url(../../../assets/images/dress1.png);
+    background-position: center;
+    width: 30rem;
+height: 23.5rem;
+flex-shrink: 0;
+}

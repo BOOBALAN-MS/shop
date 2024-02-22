@@ -1,7 +1,3 @@
-.mainContainer {
-    max-width: 100vw;
-}
-
 .images {
     background-image: url(../../../assets/images/Banner-1.jpg);
     background-color: lightgray;

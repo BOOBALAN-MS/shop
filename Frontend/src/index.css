@@ -4,16 +4,52 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* WebKit (Safari, Chrome) */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+::-webkit-scrollbar-track {
+  background-color: rgb(236, 226, 226);
+  border-radius: 10px;
+  border: 1px solid rgb(31, 31, 70);;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(31, 31, 70);
+  border-radius: 10px;
+}
+
+/* Firefox */
+/* For Firefox 64 and earlier */
+ scrollbar {
+  width: 10px;
+}
+
+ scrollbar[orient="vertical"] {
+  background-color: rgb(236, 226, 226);;
+}
+
+ scrollbar-thumb {
+  background-color: rgb(31, 31, 70);
+}
+
+/* For Firefox 65 and later */
+/* You may need to use !important to override user styles */
+/* Example: scrollbar-color: red blue !important; */
+/* Uncomment the line below if needed */
+/* scrollbar-color: red blue; */
+
+/* Microsoft Edge */
+/* For Edge 79 and earlier */
+/* Uncomment the line below if needed */
+/* -ms-overflow-style: none; */
+/* scrollbar-color: red blue; */
+
+/* For Edge 80 and later */
+/* Uncomment the line below if needed */
+/* scrollbar-color: red blue; */
+
+/* Standard (for browsers that support the latest spec) */
+/* Uncomment the line below if needed */
+/* scrollbar-color: red blue; */
